@@ -1,0 +1,22 @@
+.SearchResults {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 350px;
+  max-height: 500px;
+  padding: .88rem;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px hsl(0, 0%, 0%);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+  .SearchResults {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}
